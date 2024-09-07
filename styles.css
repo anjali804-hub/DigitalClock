@@ -1,0 +1,56 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box {
+    background: #444444;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 200px;
+    font-size: 1.5em;
+    font-weight: 300;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.time-box {
+    background: #555555;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60px;
+    font-size: 2em;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
